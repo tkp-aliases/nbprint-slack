@@ -141,14 +141,12 @@ js/node_modules
 js/test-results
 js/playwright-report
 js/*.tgz
-nbprint_slack/extension
 
 # Jupyter
 .ipynb_checkpoints
 .autoversion
 Untitled*.ipynb
-!nbprint_slack/extension/nbprint_slack.json
-!nbprint_slack/extension/install.json
+nbprint_slack/extension
 nbprint_slack/nbextension
 nbprint_slack/labextension
 
@@ -157,3 +155,7 @@ nbprint_slack/labextension
 
 # Rust
 target
+
+# Hydra
+outputs/
+multirun/
