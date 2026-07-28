@@ -1,4 +1,4 @@
-from nbprint_slack import *  # noqa
+from nbprint_slack import *
 
 
 def test_all():
